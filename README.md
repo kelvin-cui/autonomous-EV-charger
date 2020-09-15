@@ -6,7 +6,7 @@ With the climate crisis that's happening right now, it's now more important than
 <img src="https://i.ibb.co/129g9J2/autonomous.jpg" alt="autonomous" border="0">
 
 ## Objective
-Our objective was to create a robot that could locate the charging port of an electric vehicle, and plug in a standard charging plug. We wanted the robot to take up as little space as possible, be consistent and relaible, all while constraining ourselves to a budget of $300 CAD. 
+Our objective was to create a robot that could locate the charging port of an electric vehicle, and plug in a standard charging plug. We wanted the robot to take up as little space as possible, be consistent and reliable, all while constraining ourselves to a budget of $300 CAD. 
 <img src="https://i.ibb.co/TKp0mkW/Main.png" alt="Main" border="0">
 
 ## How it works
