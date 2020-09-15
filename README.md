@@ -1,7 +1,7 @@
 # autonomous-EV-charger
 
 ## Background
-With the climate crisis that's happening right now, it's now more important than ever to take action and start adopting sustainable practices before we cause irreversable damage to our planet. A popular trend is the shift towards electric vehicles, and in an effort to make these vehicles more attractive, our team was tasked with creating an autonomous charger robot that would automatically find, and plug the charging line into the car after the car is parked. Our team is comprised of Anton Liu, Haoran Jayce Wang, and Kelvin Cui, and this project was created for our ESC204 (Praxis 3) class.
+With the climate crisis that's happening right now, it's now more important than ever to take action and start adopting sustainable practices before we cause irreversable damage to our planet. A popular trend is the shift towards electric vehicles, and in an effort to make these vehicles more attractive, our team was tasked with creating an autonomous charger robot that would automatically find, and plug the charging line into the car after the car is parked. Our team is comprised of Anton Liu, Haoran Jayce Wang, and Kelvin Cui, and this project was created for our ESC204 (Praxis 3) class from the University of Toronto Engineering Science program.
 
 <img src="https://i.ibb.co/129g9J2/autonomous.jpg" alt="autonomous" border="0">
 
