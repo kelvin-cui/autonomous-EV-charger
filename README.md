@@ -1,7 +1,7 @@
 # autonomous-EV-charger
 
 ## Background
-With the climate crisis that's happening right now, it's now more important than ever to take action and start adopting sustainable practices before we cause irreversable damage to our planet. A popular trend is the shift towards electric vehicles, and in an effort to make these vehicles more attractive, our team was tasked with creating an autonomous charger robot that would automatically find, and plug the charging line into the car after the car is parked. Our team is comprised of Anton Liu, Haoran Jayce Wang, and Kelvin Cui, and this project was created for our ESC203 (Praxis 3) class.
+With the climate crisis that's happening right now, it's now more important than ever to take action and start adopting sustainable practices before we cause irreversable damage to our planet. A popular trend is the shift towards electric vehicles, and in an effort to make these vehicles more attractive, our team was tasked with creating an autonomous charger robot that would automatically find, and plug the charging line into the car after the car is parked. Our team is comprised of Anton Liu, Haoran Jayce Wang, and Kelvin Cui, and this project was created for our ESC204 (Praxis 3) class.
 
 <img src="https://i.ibb.co/129g9J2/autonomous.jpg" alt="autonomous" border="0">
 
@@ -18,7 +18,7 @@ In order to design this robot, we started by defining our stakeholders, our obje
 *insert rfp stuff*
 
 ### Hardware Choice
-Given our time and budget constraints, most of our electronics and sensors are simple, off the shelf components. We chose a raspberry pi as it allowed us to do complex computer vision analysis to find the charging port, with a raspberry pi camera. We chose IR distance sensors over ultrasonic sensors as they were more consistent, and delivered more accurate results in our range. For motors, we chose stepper motors, despite their increased complexity (more power draw and stepper motor drivers), as it would allow for finer control when compared to simple DC motors. Finally, we decided to go with a fixed power supply rather than a battery pack simply because it better fit our budgetary constraints.
+Given our time and budget constraints, most of our electronics and sensors are simple, off the shelf components. We chose a raspberry pi as it allowed us to do complex computer vision analysis to find the charging port, with a raspberry pi camera. We chose IR distance sensors over ultrasonic sensors as they were more consistent, and delivered more accurate results in our range. For motors, we chose stepper motors, despite their increased complexity (more power draw and stepper motor drivers), as it would allow for finer control when compared to simple DC motors. Finally, we decided to go with a fixed power supply rather than a battery pack simply because it better fit our budgetary constraints. Finally, the omni-wheels were chosen to allow the rover to move freely, and rotate on the spot.
 
 ### Physical Design
 Next came our design. We decided to model the entirety of our design, and take advantage of the rapid prototyping tools we had in our disposal. With a model, we were able to either lazer cut or 3D print all of our components.
@@ -38,3 +38,4 @@ For electrical design, we wanted to make sure that it was relaible, and we wante
 - Anton can you talk about trello real quick 
 
 ## Lessons Learned
+If we were to do this project again, there are definately some things that we would do differently. The full raspberry pi was overkill, and a raspberry pi zero has enough computational power to do the calculations, at a fraction of the cost. The scissor lift design was a pain, since the motor did not linearly move the plug up and down. A vertical "elevator" design would have worked better, using the exact same hardware, with the lead screw directly driving the plug platform vertically.
