@@ -33,6 +33,10 @@ For electrical design, we wanted to make sure that it was relaible, and we wante
 
 ### Software Design
 - All the software is written in Python and executed by the onboard Raspberry Pi Zero. The goal of the software was to be able to autonomously detect the charging port and be able to align and navigate the charger into the charging port. The last developments made in the area of port detection used OpenCV to process frames from a live video feed to identify set markers on the charging port prototype. 
+- Various methods were prototyped to experiment with the best approach to reliably identify and localize the robot with respect to the port through OpenCV that can be read about in the Programming folder, but the finalized approach was to use a red rectangle marked ontop of the port as the localization identifier. This method is the most reliable as our approach was to create a mask that only allowed pixels that match the redness of the marker and ultimately identify the contour of the rectangle in that mask. Since we knew exactly where our camera was placed on the robot, with some calibration and testing, we can then use the location of the rectuangular contour on the frame to localize the robot. To maximize the frames per second the robot is able to process using OpenCV, the task of generating the video stream from the camera and the processing of frames were completed on multiple threads or paralleled computations. This method was able to significantly improve our processed video stream from less than 10 fps to more than 15 fps.
+
+- To control the movement of the robot, we utilized the integrated GPIO library in Python to output corresponding digital signals to control stepper motors as required
+- Wireless communication for remote control of the robot from a laptop when required was built using the socket library in Python to create a server for sending desired commands to the rasberry pi and placing both the control laptop and the raspberry pi to be on one hotspot network so that they could communicate over the shared wifi. 
 
 ### Project Management
 - Anton can you talk about trello real quick 
