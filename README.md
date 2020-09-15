@@ -32,7 +32,7 @@ For electrical design, we wanted to make sure that it was relaible, and we wante
 <img src="https://i.ibb.co/61pWSQ2/Electrical-Circuitry.jpg" alt="Electrical-Circuitry" border="0">
 
 ### Software Design
-- All the software is written in Python and executed by the onboard Raspberry Pi Zero. The goal of the software was to be able to autonomously detect the charging port and be able to align and navigate the charger into the charging port. The last developments made in the area of port detection used OpenCV to process frames from a live video feed to identify set markers on the charging port prototype. To tackle the challenge of variable yaw of the charging port surface with respect to the robot, we implemented two IR sensors that output the distance into the Python script to detect the distance from the sides of the robot to the port and align itself accordingly. 
+- All the software is written in Python and executed by the onboard Raspberry Pi Zero. The goal of the software was to be able to autonomously detect the charging port and be able to align and navigate the charger into the charging port. The last developments made in the area of port detection used OpenCV to process frames from a live video feed to identify set markers on the charging port prototype. 
 
 ### Project Management
 - Anton can you talk about trello real quick 
