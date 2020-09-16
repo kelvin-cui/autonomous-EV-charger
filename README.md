@@ -15,7 +15,8 @@ The robot is controlled by a raspberry pi, using computer vision to determine th
 
 ## Design Process
 In order to design this robot, we started by defining our stakeholders, our objectives, and our metrics to measure these objectives. Using this model, we started multiple rounds of design, going through many different alternatives until we finally arrived at our solution. If you're interested, you can see the detailed request for proposal here : 
-*insert rfp stuff*
+
+*[Request for Proposal](https://github.com/ntnox/autonomous-EV-charger/blob/master/Request%20for%20Proposal.pdf)
 
 ### Hardware Choice
 Given our time and budget constraints, most of our electronics and sensors are simple, off the shelf components. We chose a raspberry pi as it allowed us to do complex computer vision analysis to find the charging port, with a raspberry pi camera. We chose IR distance sensors over ultrasonic sensors as they were more consistent, and delivered more accurate results in our range. For motors, we chose stepper motors, despite their increased complexity (more power draw and stepper motor drivers), as it would allow for finer control when compared to simple DC motors. Finally, we decided to go with a fixed power supply rather than a battery pack simply because it better fit our budgetary constraints. Finally, the omni-wheels were chosen to allow the rover to move freely, and rotate on the spot.
