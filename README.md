@@ -43,7 +43,10 @@ For electrical design, we wanted to make sure that it was relaible, and we wante
 - Wireless communication for remote control of the robot from a laptop when required was built using the socket library in Python to create a server for sending desired commands to the rasberry pi and placing both the control laptop and the raspberry pi to be on one hotspot network so that they could communicate over the shared wifi. 
 
 ### Project Management
-- Anton can you talk about trello real quick 
+- Trello was used to manage this project, and this includes aspects such as due dates, person assigned, descriptions, categorization, etc. It gives us a clear view of the status of the project, and keeps us on track to complete it. We have also included a "Risks" section to identify potential failure modes of the design, and planned solutions for them. With trello, we were able to keep the project organized and efficient.
+- INSERT TRELLO IMAGE HERE
+- We also used google sheets to create a Bill of Materials (BOM), which contains name, price, purchaser, and original URL of all the parts that we have used. As we are on a tight budget limit, the BOM helped us to identify priorities and where to cut costs. 
+- INSERT BOM IMAGE HERE
 
 ## Lessons Learned
 If we were to do this project again, there are definately some things that we would do differently. The full raspberry pi was overkill, and a raspberry pi zero has enough computational power to do the calculations, at a fraction of the cost. The scissor lift design was a pain, since the motor did not linearly move the plug up and down. A vertical "elevator" design would have worked better, using the exact same hardware, with the lead screw directly driving the plug platform vertically.
