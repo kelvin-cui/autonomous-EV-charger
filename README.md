@@ -44,7 +44,7 @@ For electrical design, we wanted to make sure that it was relaible, and we wante
 
 ### Project Management
 - Trello was used to manage this project, and this includes aspects such as due dates, person assigned, descriptions, categorization, etc. It gives us a clear view of the status of the project, and keeps us on track to complete it. We have also included a "Risks" section to identify potential failure modes of the design, and planned solutions for them. With trello, we were able to keep the project organized and efficient.
-- INSERT TRELLO IMAGE HERE
+<img src="Pictures/Trello overview.JPG">
 - We also used google sheets to create a Bill of Materials (BOM), which contains name, price, purchaser, and original URL of all the parts that we have used. As we are on a tight budget limit, the BOM helped us to identify priorities and where to cut costs. 
 - INSERT BOM IMAGE HERE
 
